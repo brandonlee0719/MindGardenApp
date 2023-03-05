@@ -1,0 +1,49 @@
+<svg width="20" height="22" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Bell Unselected</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(424 572)">
+<rect x="-424" y="-572" width="20" height="22" fill="#222222"/>
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -733 -1584L -358 -1584L -358 1648L -733 1648L -733 -1584Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Home AS" clip-path="url(#clip-0)">
+<path d="M -733 -1584L -358 -1584L -358 1648L -733 1648L -733 -1584Z" fill="#F5F5F5"/>
+<g id="Background">
+<g id="Background" filter="url(#filter0_b)">
+<use xlink:href="#path0_fill" transform="translate(-733 -1584)" fill="#FFFFFF"/>
+<use xlink:href="#path0_fill" transform="translate(-733 -1584)" fill="#F5F5F5"/>
+</g>
+</g>
+<g id="Scan Card" filter="url(#filter1_d)">
+<g id="Card Background">
+<use xlink:href="#path1_fill" transform="translate(-718 -602)" fill="#FFFFFF"/>
+</g>
+<g id="Bell Icon">
+<g id="Bell Unselected">
+<use xlink:href="#path2_fill" transform="translate(-424 -572)" fill="#8F8F8F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_b" filterUnits="userSpaceOnUse" x="-733" y="-1584" width="375" height="3232" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="4.07742"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+</filter>
+<filter id="filter1_d" filterUnits="userSpaceOnUse" x="-728" y="-610" width="365" height="698" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="2"/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.76039 0 0 0 0 0.76039 0 0 0 0 0.76039 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" fill-rule="evenodd" d="M 1.82146e-14 0L 375 2.80331e-14L 375 3232L 0 3232L 1.82146e-14 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 1.66586e-14 4C 1.67132e-14 1.79086 1.79086 3.05262e-17 4 6.81822e-17L 341 5.81253e-15C 343.209 5.85019e-15 345 1.79086 345 4L 345 674C 345 676.209 343.209 678 341 678L 4 678C 1.79086 678 4.42629e-17 676.209 9.88639e-17 674L 1.66586e-14 4Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 17.9408 16.2531C 18.386 16.9023 18.9253 17.4875 19.5425 17.991C 19.9559 18.2879 20.1101 18.8142 19.9183 19.2743C 19.7375 19.7355 19.2636 20.0292 18.751 19.9977L 11.9221 19.9977C 11.8616 20.2877 11.7667 20.5632 11.6398 20.8115C 11.6174 20.8531 11.5954 20.895 11.5734 20.9367C 11.2907 21.4741 11.014 22 10.0001 22C 8.90738 22 8.36521 20.8115 8.36521 20.8115C 8.23728 20.5634 8.14136 20.2879 8.08002 19.9977L 1.24762 19.9977C 0.734959 20.0292 0.261082 19.7355 0.0802655 19.2743C -0.110714 18.8116 0.0475201 18.2835 0.465489 17.9887C 1.08167 17.4858 1.62015 16.9014 2.06479 16.2531C 2.96528 14.909 3.42627 13.3374 3.38855 11.7402C 3.38077 11.0159 3.38337 10.2907 3.38596 9.5658C 3.38727 9.20349 3.38855 8.84125 3.38855 8.47925C 3.3877 5.85651 5.08841 3.51031 7.65174 2.59796C 7.71491 2.57251 7.78617 2.55609 7.85679 2.53979C 7.99759 2.50732 8.1359 2.47546 8.20273 2.37402C 8.27582 2.26318 8.26355 2.1037 8.25144 1.94647C 8.24692 1.8877 8.24244 1.82928 8.24244 1.7738C 8.20847 1.20599 8.4888 0.663086 8.9802 0.34491C 9.25531 0.202332 9.54474 0.086792 9.84403 0L 10.1616 0C 10.4598 0.0848999 10.7484 0.198181 11.0231 0.338196C 11.5144 0.656372 11.7948 1.19928 11.7608 1.76709C 11.7608 1.81879 11.758 1.87396 11.7551 1.92975C 11.7466 2.09393 11.7378 2.26367 11.8005 2.36731C 11.8599 2.46533 12.0147 2.50305 12.1679 2.54047C 12.2317 2.55603 12.2953 2.57147 12.3515 2.59125C 14.9163 3.50519 16.6165 5.85461 16.6124 8.47925C 16.6124 8.84125 16.6137 9.20349 16.615 9.5658C 16.6176 10.2907 16.6202 11.0159 16.6124 11.7402C 16.5762 13.3379 17.0388 14.9095 17.9408 16.2531Z"/>
+</defs>
+</svg>

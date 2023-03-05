@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>201784826107-96i3kfotkvll0gns0lqvi33gdk9ggerh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.201784826107-96i3kfotkvll0gns0lqvi33gdk9ggerh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDKKxj67gIWjJ7yhHv95cNdycNT84e3RA0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>201784826107</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.bytehouse.mindgarden</string>
+	<key>PROJECT_ID</key>
+	<string>mindgarden-b9527</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mindgarden-b9527.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:201784826107:ios:193bec03449dcbeb95b85e</string>
+</dict>
+</plist>

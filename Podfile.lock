@@ -1,0 +1,38 @@
+PODS:
+  - Amplitude (8.5.0)
+  - Amplitude-iOS (4.9.3)
+  - AppsFlyerFramework (6.9.1):
+    - AppsFlyerFramework/Main (= 6.9.1)
+  - AppsFlyerFramework/Main (6.9.1)
+  - lottie-ios (3.5.0)
+  - Purchases (3.14.3):
+    - PurchasesCoreSwift (= 3.14.3)
+  - PurchasesCoreSwift (3.14.3)
+
+DEPENDENCIES:
+  - Amplitude (~> 8.5.0)
+  - Amplitude-iOS (~> 4.9.3)
+  - AppsFlyerFramework
+  - lottie-ios (~> 3.5.0)
+  - Purchases
+
+SPEC REPOS:
+  trunk:
+    - Amplitude
+    - Amplitude-iOS
+    - AppsFlyerFramework
+    - lottie-ios
+    - Purchases
+    - PurchasesCoreSwift
+
+SPEC CHECKSUMS:
+  Amplitude: ef9ed339ddd33c9183edf63fa4bbaa86cf873321
+  Amplitude-iOS: 122e026c44db8460e5efcf84859aa290a0ae9786
+  AppsFlyerFramework: dc9aa675faa8e1a2ed40fb295d3c5408ee2b972a
+  lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
+  Purchases: ba5a570357564da5d5447281190b5ac5ab9b8f3e
+  PurchasesCoreSwift: 78a2001158d7fed44f9796ea50b89152ba727520
+
+PODFILE CHECKSUM: 9eb053684be3ee3d69bb167701bd691219d100ce
+
+COCOAPODS: 1.11.3

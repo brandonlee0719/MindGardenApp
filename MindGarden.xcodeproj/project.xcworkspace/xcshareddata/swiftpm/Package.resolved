@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "OneSignalXCFramework",
+        "repositoryURL": "https://github.com/OneSignal/OneSignal-XCFramework",
+        "state": {
+          "branch": null,
+          "revision": "d9d8d7de62e090bb8414369540b676c18be89ec2",
+          "version": "3.10.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "daffodil.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

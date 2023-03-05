@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="launcher" highlightedImage="coloredPots2" translatesAutoresizingMaskIntoConstraints="NO" id="Iax-il-jZn">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LSh-qj-2qO">
+                                <rect key="frame" x="67" y="348" width="280" height="100"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plant1" translatesAutoresizingMaskIntoConstraints="NO" id="imc-Vg-Oik">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="uSE-Zo-Ym6"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loadingyour" translatesAutoresizingMaskIntoConstraints="NO" id="zEf-g2-Xf9">
+                                        <rect key="frame" x="80" y="0.0" width="200" height="100"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="C5R-Gl-57j"/>
+                                    <constraint firstAttribute="width" constant="280" id="mhK-qL-8CF"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8Rc-8l-Ikv"/>
+                        <color key="backgroundColor" name="darkWhite"/>
+                        <constraints>
+                            <constraint firstItem="Iax-il-jZn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Bve-xv-bVE"/>
+                            <constraint firstItem="Iax-il-jZn" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="CN7-Qz-SyY"/>
+                            <constraint firstItem="LSh-qj-2qO" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-50" id="PjV-3K-Ige"/>
+                            <constraint firstItem="Iax-il-jZn" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="Xfo-tN-wSk"/>
+                            <constraint firstItem="Iax-il-jZn" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ao7-dQ-WAm"/>
+                            <constraint firstItem="LSh-qj-2qO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pDG-OZ-8xz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coloredPots2" width="207" height="97"/>
+        <image name="launcher" width="1173" height="2208"/>
+        <image name="loadingyour" width="1226" height="603"/>
+        <image name="plant1" width="395" height="581"/>
+        <namedColor name="darkWhite">
+            <color red="0.96100002527236938" green="0.96100002527236938" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
